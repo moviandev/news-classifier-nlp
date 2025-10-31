@@ -70,7 +70,7 @@ def main(training_path, testing_path):
     
     print("--- Starting Fake News Detection Pipeline ---")
     nltk.download("punkt")
-    output_file_path = './datasets/final_predictions_liniear_regression_xgb.csv'
+    output_file_path = './datasets/final_predictions_linear_regression_xgb.csv'
     
     # --- 0. LOAD DATA ---
     print(f"Loading training data from: {training_path}")
